@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CURRENT_PLAYER=$(~/.config/scripts/playerctrl/current-player.sh)
+CURRENT_PLAYER=$(playerctl-current-player.sh)
 LEVEL=0.1
 
 if [[ -z $CURRENT_PLAYER ]]; then

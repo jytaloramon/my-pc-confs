@@ -5,9 +5,9 @@ OPT_GET_TITLE=1
 OPT_GET_PLAYER_NAME=2
 OPT_GET_TIME=3
 OPT_MAX_VALUE=3
-CURRENT_OPTION_FILE=~/.config/scripts/playerctrl/current-option.txt
+CURRENT_OPTION_FILE=~/.local/share/polybar-player/current-option.txt
 
-current_player=$(~/.config/scripts/playerctrl/current-player.sh)
+current_player=$(playerctl-current-player.sh)
 
 
 if [[ -z $current_player ]]; then

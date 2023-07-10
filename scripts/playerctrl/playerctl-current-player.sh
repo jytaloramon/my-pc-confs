@@ -1,6 +1,8 @@
 #!/bin/bash
 
-CURRENT_PLAYER_FILE=~/.config/scripts/playerctrl/current-player.txt
+# execução
+
+CURRENT_PLAYER_FILE=~/.local/share/polybar-player/current-player.txt
 
 LABEL_VOID="None"
 
