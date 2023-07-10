@@ -5,5 +5,5 @@ My PC - Confs
 - Rofi
     - https://github.com/newmanls/rofi-themes-collection
     - https://github.com/Murzchnvok/rofi-collection
-- Iosevka (Font)
+- Iosevka-Nerd-Font (Font)
 - Alacritty
