@@ -1,0 +1,114 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: 'Fira Code', 'Iosevka Nerd Font', 'PowerlineSymbols', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+window#waybar {
+    padding: 0px;
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+window#waybar.modules-left {
+    background-color: #000;
+}
+
+#backlight,
+#battery,
+#keyboard-state,
+#clock,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#temperature,
+#workspaces,
+#tray {
+    padding: 0 10px;
+}
+
+#battery,
+#backlight,
+#keyboard-state,
+#network,
+#pulseaudio,
+#tray {
+    background-color: rgb(20, 25, 25);
+}
+
+#clock {
+    background-color: rgb(40, 160, 65);
+}
+
+#backlight {
+    color: rgb(152, 160, 40);
+}
+
+#battery.critical {
+    background: red;
+}
+
+#battery.warning {
+    background: orange;
+}
+
+#battery.charging {
+    border-bottom: 2px solid red;
+}
+
+#battery.plugged {
+    border-bottom: 2px solid rgb(40, 160, 65);
+}
+
+#keyboard-state label.locked {
+    color: rgb(40, 160, 65);
+}
+
+#network.disconnected {
+    color: red;
+}
+
+#network.linked {
+    color: orange;
+}
+
+#network.ethernet {
+    color: rgb(229, 0, 202);
+}
+
+#network.wifi {
+    color: rgb(40, 160, 65);
+}
+
+#pulseaudio.bluetooth {
+    color: rgb(67, 67, 155);
+}
+
+#temperature.critical {
+    color: red;
+}
+
+#tray menu {
+    background-color: rgb(20, 25, 25);
+}
+
+#workspaces button {
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 2px solid transparent;
+}
+
+#workspaces button:hover {
+    background: transparent;
+}
+
+#workspaces button.active {
+    border-bottom: 2px solid rgb(40, 160, 65);
+}
